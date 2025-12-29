@@ -1,0 +1,16 @@
+# LangChain
+langchain==0.1.0
+langchain-experimental  # 包含 Agent 功能实验性
+langchain-google-genai  # 用于调用 Gemini 模型
+
+# 向量数据库 (RAG 记忆)
+chromadb
+pypdf           # 解析 PDF 论文
+
+# 深度学习与科学计算 (执行环境)
+torch           # PyTorch
+numpy
+matplotlib      # 用于画图
+
+# 系统工具
+python-dotenv   # 加载 API Key
